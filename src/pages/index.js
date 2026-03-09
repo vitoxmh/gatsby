@@ -71,7 +71,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <h1>Hola Mundo</h1>
-  </Layout>
+  </Layout>   
 )
 
 /**
