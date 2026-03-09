@@ -15,6 +15,12 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+	{
+      resolve: "gatsby-source-wordpress",
+      options: {
+        url: "http://memptools.fusiona.cl/bitacora/graphql/",
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
