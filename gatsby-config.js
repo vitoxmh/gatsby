@@ -18,7 +18,7 @@ module.exports = {
 	{
       resolve: "gatsby-source-wordpress",
       options: {
-        url: "http://memptools.fusiona.cl/bitacora/graphql/",
+        url: "http://52.71.80.226/bitacora/graphql/",
       },
     },
     `gatsby-plugin-image`,
